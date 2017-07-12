@@ -4,5 +4,13 @@
   <body>
     <h1>BC玩家社区</h1>
     <p>Welcome to BC gamers</p>
+  <head>
+    <title>BC玩家论坛</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to BCGamers</p>
+    <p>123</p>
   </body>
 </html>
