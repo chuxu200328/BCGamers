@@ -6,3 +6,23 @@ body {
 a {
   color: #00B7FF;
 }
+#body{
+	padding:0;
+}
+#body .uk-navbar-container{
+	background: linear-gradient(to right,#00DDDD, #33FFAA);
+}
+#anvbar .uk-navbar-left{
+}
+#body .subTitle{
+	color:#000000;
+}
+#body .games:hover{
+	color:#000000;
+}
+#body .games{
+	color:#888888;
+}
+#body .subTitle:hover{
+	color: #666666;
+}
