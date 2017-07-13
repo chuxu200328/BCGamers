@@ -7,8 +7,6 @@
   </head>
   <body>
     <h1>{{ biaoqian }}</h1>
-    <p>Welcome to {{ biaoqian }}</p>
-    <p>123</p>
   <body id="body">
     {{>navbar}}
 {{>footer}}
