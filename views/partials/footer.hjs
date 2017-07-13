@@ -1,0 +1,17 @@
+<footer>
+	
+	<!-- jQuery is required -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- UIkit JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/js/uikit.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/js/uikit-icons.min.js"></script>
+	<div class="footerPart">
+		<a href="#" class="aboutUs">关于我们</a>
+		<a href="#" class="contactUs">联系我们</a>
+		<img src="../img/QRcode.jpg" class="QRcode">
+	</div>
+	<div>
+		<p class="madeBy">由本城科技制作</p>
+	</div>
+</footer>
