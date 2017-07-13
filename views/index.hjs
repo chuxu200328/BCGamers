@@ -5,9 +5,15 @@
     <title>BC玩家论坛</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
+  <body>
+    <h1>{{ biaoqian }}</h1>
   <body id="body">
     {{>navbar}}
+<<<<<<< HEAD
 	{{>footer}}
 
+=======
+{{>footer}}
+>>>>>>> 6443bb7f2106df9aae45736ac38b8ab78503d4a1
   </body>
 </html>
