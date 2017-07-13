@@ -3,6 +3,26 @@
 {{>header}}
 <body>
 {{>navbar}}
+<form>
+    <div class="uk-margin">
+        <div class="uk-inline">
+            <span class="uk-form-icon" uk-icon="icon: user"></span>
+            <input class="uk-input" type="	">
+        </div>
+    </div>
+    <div class="uk-margin">
+        <div class="uk-inline">
+            <span class="uk-form-icon" uk-icon="icon: lock"></span>
+            <input class="uk-input" type="password">
+        </div>        
+    </div>
+    <div>
+    	<button class="uk-button uk-button-default uk-margin-small-bottom">登陆</button>
+    </div>
+    <div>
+    	<a href="">没有账号？现在注册</a>
+    </div>
+</form>
 {{>footer}}
 </body>
 </html>
