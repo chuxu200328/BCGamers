@@ -7,7 +7,7 @@
   </head>
   <body id="body">
     {{>navbar}}
-{{>footer}}
+	{{>footer}}
 
   </body>
 </html>

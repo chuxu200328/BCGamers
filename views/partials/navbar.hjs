@@ -37,6 +37,6 @@
             </ul>
         </div>
       <div class="uk-navbar-item uk-navbar-right">
-          <button class="uk-button uk-button-default loginButton">Button</button>
+          <a href="/login"><button class="uk-button uk-button-default loginButton">登录 / 注册</button></a>
       </div>
     </nav>
