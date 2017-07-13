@@ -6,48 +6,8 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body id="body">
-    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click">
-        <div class="uk-navbar-left" id="navbar">
-            <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="#">BC玩家论坛</a></li>
-                <li class="subtitle" id="branch">
-                    <a href="#" class="subTitle">游戏分类</a>
-                    <div class="uk-navbar-dropdown">
-                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li><a href="#" class="games">英雄联盟</a></li>
-                            <li><a href="#" class="games">战地4</a></li>
-                            <li><a href="#" class="games">GTA5</a></li>
-                            <li><a href="#" class="games">彩虹六号</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li id="branch">
-                    <a href="#" class="subTitle">交友开黑</a>
-                    <div class="uk-navbar-dropdown">
-                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li><a href="#" class="games">找大腿</a></li>
-                            <li><a href="#" class="games">找妹子</a></li>
-                            <li><a href="#" class="games">找基友</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li id="branch">
-                    <a href="#" class="subTitle">游戏新闻</a>
-                    <div class="uk-navbar-dropdown">
-                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li><a href="#" class="games">steam打折</a></li>
-                            <li><a href="#" class="games">大神操作</a></li>
-                            <li><a href="#" class="games">新品上市</a></li>
-                            <li><a href="#" class="games">年度游戏排行榜</a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-      <div class="uk-navbar-item uk-navbar-right">
-          <button class="uk-button uk-button-default subTitle">Button</button>
-      </div>
-    </nav>
+    {{>navbar}}
 {{>footer}}
+
   </body>
 </html>
