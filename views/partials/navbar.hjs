@@ -1,12 +1,12 @@
 <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click">
         <div class="uk-navbar-left" id="navbar">
             <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="#">BC玩家论坛</a></li>
+                <li class="uk-active"><a href="/">BC玩家论坛</a></li>
                 <li class="subtitle" id="branch">
                     <a href="#" class="subTitle">游戏分类</a>
                     <div class="uk-navbar-dropdown">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li><a href="#" class="games">英雄联盟</a></li>
+                            <li><a href="/classification/lol" class="games">英雄联盟</a></li>
                             <li><a href="#" class="games">战地4</a></li>
                             <li><a href="#" class="games">GTA5</a></li>
                             <li><a href="#" class="games">彩虹六号</a></li>

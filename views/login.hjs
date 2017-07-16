@@ -20,7 +20,7 @@
     	<button class="uk-button uk-button-default uk-margin-small-bottom">登陆</button>
     </div>
     <div>
-    	<a href="">没有账号？现在注册</a>
+    	<a href="/signup">没有账号？现在注册</a>
     </div>
 </form>
 {{>footer}}
