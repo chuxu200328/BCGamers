@@ -1,0 +1,35 @@
+.aboutUs{
+	color: black;
+	margin-right: 5%;
+	font-size: 15px;
+}
+.contactUs{
+	color: black;
+	margin-right: 20%;
+	height: 50px;
+	font-size: 15px;
+}
+.contactUs:hover{
+	color: #9e9e9e;
+	text-decoration: none;
+}
+.aboutUs:hover{
+	color: #9e9e9e;
+	text-decoration: none;
+}
+.shiyongtiaokuan{
+	color: black;
+	font-size: 15px;
+}
+.yisitiaokuan{
+	color: black;
+	font-size: 15px;
+}
+#body .shiyongtiaokuan:hover{
+	color: #9e9e9e;
+	text-decoration: none;
+}
+#body .yinsitiaokuan:hover{
+	color: #9e9e9e;
+	text-decoration: none;
+}
