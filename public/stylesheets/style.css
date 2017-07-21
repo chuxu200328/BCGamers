@@ -9,35 +9,7 @@ a {
 	padding:0;
 }
 
-#anvbar .uk-navbar-left{
-}
-#body .subTitle{
-	color:#000000;
-}
-#body .games:hover{
-	color:#000000;
-}
-#body .games{
-	color:#888888;
-}
-#body .subTitle:hover{
-	color: #666666;
-}
-.QRcode{
-	height: 50px;
-}
-.footerPart{
-	padding-top: 30px;
-}
-.madeBy{
-	text-align: center;
-	margin-bottom: 15px;
-}
 .uk-margin{
 	text-align: center;
 }
-form{
-	text-align: center;
-	padding-top: 20%;
-	padding-bottom: 20%;
-}
+

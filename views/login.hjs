@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 {{>header}}
+<link rel="stylesheet" type="text/css" href="/stylesheets/login.css">
 <body>
 {{>navbar}}
-<form>
+<form id="login">
+<h1 class="loginTitle">登录</h1>
     <div class="uk-margin">
         <div class="uk-inline">
             <span class="uk-form-icon" uk-icon="icon: user"></span>
@@ -20,7 +22,7 @@
     	<button class="uk-button uk-button-default uk-margin-small-bottom">登陆</button>
     </div>
     <div>
-    	<a href="/signup">没有账号？现在注册</a>
+    	<a href="/signup" class="goToSignUp">没有账号？现在注册</a>
     </div>
 </form>
 {{>footer}}

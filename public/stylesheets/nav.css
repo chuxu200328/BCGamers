@@ -1,3 +1,15 @@
-#body .uk-navbar-container{
+#nav{
 	background: linear-gradient(to right,#26B5FF, #3E99FF);
+}
+#nav .subTitle{
+	color:#000000;
+}
+#nav .games:hover{
+	color:#000000;
+}
+#nav .games{
+	color:#888888;
+}
+#nav .subTitle:hover{
+	color: #666666;
 }
