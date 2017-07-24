@@ -1,7 +1,7 @@
 <nav class="uk-navbar-container uk-margin" uk-navbar="mode: hover" id="nav">
         <div class="uk-navbar-left" id="navbar">
             <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="/">BC玩家论坛</a></li>
+                <li class="uk-active"><a href="/" class="navTitle">BC玩家论坛</a></li>
                 <li class="subtitle" id="branch">
                     <a href="#" class="subTitle">游戏分类</a>
                     <div class="uk-navbar-dropdown">

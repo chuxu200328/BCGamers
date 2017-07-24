@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html>
 {{>header}}
+<link rel="stylesheet" type="text/css" href="/stylesheets/signup.css">
 <body>
 {{>navbar}}
-    
+    <form id="login">
+		<h1 class="loginTitle">注册</h1>
+    	<div class="uk-margin">
+        	<div class="uk-inline">
+            	<span class="uk-form-icon" uk-icon="icon: user"></span>
+            	<input class="uk-input" type="	">
+        	</div>
+    	</div>
+    	<div class="uk-margin">
+        	<div class="uk-inline">
+            	<span class="uk-form-icon" uk-icon="icon: lock"></span>
+            	<input class="uk-input" type="password">
+        	</div>        
+    	</div>
+    	<div>
+    		<button class="uk-button uk-button-default uk-margin-small-bottom">注册</button>
+    	</div>
+    	<div>
+    		<a href="/login" class="goToSignUp">已有账号？现在登录</a>
+    	</div>
+	</form>
 {{>footer}}
 </body>
 </html>

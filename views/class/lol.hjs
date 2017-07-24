@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+{{>header}}
+<link rel="stylesheet" type="text/css" href="/stylesheets/lol.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<body id="lol">
+{{>navbar}}
+	<section class="lolMainPage">
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+    <div class="uk-navbar-center">
+
+        <div class="uk-navbar-center-left"><div>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="#">游戏热点</a></li>
+                <li>
+                    <a href="#">实时比赛</a》
+                </li>
+            </ul>
+        </div></div>
+        <a class="uk-navbar-item uk-logo" href="#"><img src="/img/lol.png" style="height: 80px; width: 150px;"></a>
+        <div class="uk-navbar-center-right"><div>
+            <ul class="uk-navbar-nav">
+                <li><a href="#">英雄信息</a></li>
+                <li><a href="#">版本信息</a></li>
+            </ul>
+        </div></div>
+
+    </div>
+</nav>
+    <!-- Set up your HTML -->
+    <div class="owl-carousel">
+      <div><img src="/img/kayn.jpg"><p>新闻1</p></div>
+      <div><img src="/img/kayn.jpg"><p>新闻2</p></div>
+      <div><img src="/img/kayn.jpg"><p>新闻3</p></div>
+    </div>
+    <h2>实时比赛</h2>
+
+    <div class="uk-column-1-2">
+      
+      
+    </div>
+    <div class="uk-column-1-2">
+      
+    </div>
+
+    <div uk-grid>
+        <div class="uk-width-auto">
+              <iframe width="640" height="360" src="https://www.youtube.com/embed/2T63BrAsGyo" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="uk-width-expand liveMatchBox">
+              <p class="liveMatch">当前比赛</p>
+              <div class="uk-column-1-2 uk-column-divider liveMatchTeamInfo">
+                  <div class="liveMatchTeamInfo">
+                    <img src="/img/we.png" class="liveMatchImg" align="middle">
+                    <p>team 1</p>
+                  </div>
+                  <div class="liveMatchTeamInfo">
+                    <img src="/img/rng.png" class="liveMatchImg" align="middle">
+                    <p>team 2</p>
+                  </div>
+              </div>
+        </div>
+    </div>
+	</section>
+{{>footer}}
+</body>
+  <script type="/javaspripts/lol.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+  <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:0,
+            nav:false,
+            items: 1,
+            autoplay:true,
+        })
+  </script>
+</html>

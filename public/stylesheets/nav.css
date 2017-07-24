@@ -1,15 +1,28 @@
 #nav{
 	background: linear-gradient(to right,#26B5FF, #3E99FF);
+	position: fixed;
+	width: 100%;
+	z-index: 999;
 }
 #nav .subTitle{
-	color:#000000;
+	color:#fff;
 }
 #nav .games:hover{
-	color:#000000;
+	color:#CCCAC9;
 }
 #nav .games{
-	color:#888888;
+	color:#000000;
 }
 #nav .subTitle:hover{
-	color: #666666;
+	color: #333;
+}
+#nav .navTitle{
+	font-size: 25px;
+	font-family: Georgia, "Times New Roman", 
+             "STFangsong", "华文仿宋", 
+             "FangSongGB2312", "仿宋GB2312", 
+             serif;
+}
+.loginButton {
+	color: #fff;
 }
